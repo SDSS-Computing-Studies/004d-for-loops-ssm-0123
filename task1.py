@@ -17,3 +17,9 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+num = input("Integer?")
+num = int(num)
+for mult in range(1,13) :
+    result = num*mult
+    print(result, end=" ")

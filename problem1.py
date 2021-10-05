@@ -22,3 +22,13 @@ enter a number:4
 ****
 
 """
+while True:
+    x = input("Enter a number")
+    x = int(x)
+    
+    if x>10:
+        break
+    
+    ran = range(1,x+1)
+    for I in ran :
+        print("*"*x)

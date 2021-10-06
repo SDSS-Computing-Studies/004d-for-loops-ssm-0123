@@ -17,3 +17,15 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+
+n = input("int number that is smaller than 10")
+
+n = int(n)
+resultf=0
+for i in range(1,n+1):
+    result = str(1)*i
+    resultf = int(result) + int(resultf)
+
+
+print("the sum of the series is",str(resultf))
+

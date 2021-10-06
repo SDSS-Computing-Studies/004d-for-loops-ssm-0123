@@ -32,3 +32,5 @@ while True:
     ran = range(1,x+1)
     for I in ran :
         print("*"*x)
+
+    break

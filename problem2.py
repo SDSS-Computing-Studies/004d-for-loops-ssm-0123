@@ -37,3 +37,20 @@ example:
 Enter a number: -4
 Invalid input
 """
+
+
+
+num = input("Enter a number")
+result = 1
+try :
+    num=int(num)
+    for i in range(1,num+1,1):
+        result = result * i
+        
+except :
+    print("Invalid input")
+
+if num >= 0 :
+    print(str(num)+"! is "+str(result))
+else:
+    print("Invalid input")
